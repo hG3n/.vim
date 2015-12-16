@@ -1,5 +1,5 @@
 # ignore installed bundles
-bundles/
+bundle/
+
 # dont upload airline fonts
 files/
-
