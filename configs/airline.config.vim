@@ -14,7 +14,7 @@
 
   let g:airline_inactive_collapse=1
 
-  let g:airline_theme = 'powerlineish'
+  " let g:airline_theme = 'powerlineish'
 
   let g:airline_theme_patch_func = 'AirlineThemePatch'
   function! AirlineThemePatch(palette)
@@ -49,5 +49,5 @@
   let g:airline#extensions#branch#format = 1
 
   "tabs made airline style
-  let g:airline#extensions#tabline#enabled = 0
+  let g:airline#extensions#tabline#enabled = 1
 
